@@ -1,2 +1,2 @@
-C:\Users\Administrator\Documents\My_Documents\ZY\project\keras-yolo3-master/VOCdevkit/VOC2021/JPEGImages/000000.jpg 404,203,490,261,0
-C:\Users\Administrator\Documents\My_Documents\ZY\project\keras-yolo3-master/VOCdevkit/VOC2021/JPEGImages/000001.jpg
+C:\Users\Administrator\Documents\My_Documents\ZY\project\keras-yolo3-object-detection/VOCdevkit/VOC2021/JPEGImages/000000.jpg 404,203,490,261,0
+C:\Users\Administrator\Documents\My_Documents\ZY\project\keras-yolo3-object-detection/VOCdevkit/VOC2021/JPEGImages/000001.jpg
