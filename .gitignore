@@ -1,0 +1,14 @@
+# 以下文件太大，或没有必要上传，需要联系我
+# email：982670572@qq.com
+# tell: 18829502899
+# wechat: leihao007
+# qq: 982670572
+
+
+.idea/*
+_pycache_/*
+
+logs
+VOCdevkit
+yolov3.weights
+model_data/yolo.h5
