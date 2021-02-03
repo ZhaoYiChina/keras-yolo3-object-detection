@@ -34,8 +34,18 @@ def walkData(root_node, level, result_list):
         walkData(child, level + 1, result_list)
     return
 
+def delete_gbk(file_name):
+    tree = ET.parse(file_name)
+    root = tree.getroot()
+    if root != None and root.find('path') != None:
+        root.remove(root.find('path'))
+        tree.write(file_name)
+
+
+
 def getXmlData(file_name):
     level = 1 # 节点的深度从1开始
+    delete_gbk(file_name)
     root = ET.parse(file_name).getroot()
     walkData(root, level, result_list)
     return result_list
