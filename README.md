@@ -1,8 +1,5 @@
 # keras-yolo3-object-detection
 
-
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-
 ## Introduction
 
 基于keras-yolo3，实现目标检测。系统配置：
@@ -30,4 +27,12 @@ python yolo_vedio.py --image
 
 ## Training
 
+
+## Some issues to know
+1. 注意看 .gitignore 文件，其中包含不上传的代码和文件目录
+    1. log 训练日志，包含训练期间生成的权重文件，可直接使用
+    2. VOCdevkit 标注好的数据集，采用labelImg进行标注
+    3. yolov3.weights 适用于Darknet的权重文件，和yolov3.cfg文件可转换成yolo.h5文件
+    4. model_data/yolo.h5 yolov3的keras权重及配置组合文件，太大，根据上述云盘下载即可
+    5. .idea/* _pycache_/* pycharm工程自带文件
 
