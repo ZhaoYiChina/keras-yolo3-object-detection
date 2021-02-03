@@ -19,7 +19,8 @@
 链接：https://pan.baidu.com/s/1RLj5IQFL9dAJ1hdd7BDy2A 
 提取码：kxew 
 ```
-2. Run YOLO detection.
+2. 在 yolo.py 文件中修改 model_path 和 classes_path 注释互换
+3. Run YOLO detection.
 ```
 python yolo_vedio.py --image
 #输入当前目录下需要检测的图像名称带扩展名

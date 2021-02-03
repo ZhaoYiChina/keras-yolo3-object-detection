@@ -13,3 +13,4 @@ VOCdevkit
 yolov3.weights
 model_data/yolo.h5
 VOCdevkit.rar
+labels.txt
