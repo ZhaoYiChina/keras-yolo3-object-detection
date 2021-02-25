@@ -19,7 +19,8 @@ from yolo3.model import yolo_eval, yolo_body, tiny_yolo_body
 from yolo3.utils import letterbox_image
 from keras.utils import multi_gpu_model
 
-path = '../test/'  # 待检测图片的位置
+#path = '../test/'  # 待检测图片的位置
+path = '../VOCdevkit\VOC2021\JPEGImages/'  # 待检测图片的位置
 
 # 创建创建一个存储检测结果的dir
 result_path = '../result'
@@ -212,7 +213,7 @@ if __name__ == '__main__':
         portion = os.path.split(image_path)
         file.write(portion[1] + ' detect_result：\n')
         image = Image.open(image_path)
-        r_image = yolo.detect_image(image)
+        # r_image = yolo.detect_image(image)
         file.write('\n')
         r_image.show() #显示检测结果
         image_save_path = '../result/result_' + portion[1]
